@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bitter&family=Caveat:wght@400;700&family=Indie+Flower&family=Permanent+Marker&family=Roboto+Slab:wght@500&family=Satisfy&family=Shadows+Into+Light&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+a {
+  color: #3e5cbe;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: teal;
+  font-family: "Roboto Slab";
+  font-size: 2.3rem;
+}
+
+p {
+  font-family: "Bitter";
+  font-size: 16px;
+}
+
+div.container {
+  width: 100%;
+  clear: both;
+}
+
+nav#navbar {
+  background-color: #5691c8;
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+}
+
+nav#navbar a.hamburger {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+nav#navbar a.brand-logo {
+  float: left;
+  font-size: 1.5rem;
+  margin-left: 0.6em;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+nav#navbar ul.menu-list {
+  width: 500px;
+  text-align: center;
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav#navbar ul.menu-list li {
+  float: left;
+}
+
+nav#navbar ul.menu-list li a {
+  color: rgba(255, 255, 255, 0.9);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  padding: 0px 20px;
+}
+
+nav#navbar ul.menu-list li a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+div.container div.showcase-section {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/325044/pexels-photo-325044.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div.container div.showcase-section div.element-cordinates {
+  width: 300px;
+  height: 300px;
+  background-color: #f7f7f7;
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  z-index: 10;
+  padding: 1em;
+  display: none;
+}
+
+div.container div.showcase-section div.contents {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1000%;
+  text-align: center;
+  height: 100vh;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.container div.showcase-section div.contents div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 400px;
+}
+
+div.container div.showcase-section div.contents div h1 {
+  padding: 20px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.container div.showcase-section div.contents div p {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5em;
+}
+
+div.container div.services {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+div.container div.services div.service {
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.container div.services div.service div.content {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4);
+  width: 400px;
+  min-height: 50vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 20px;
+  text-align: center;
+}
+
+div.container div.services div.service div.content div {
+  position: relative;
+  z-index: 1;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.container div.services div.service div.content div div.body a.learn-more {
+  display: block;
+  width: 200px;
+  padding: 1em;
+  background-color: #fff;
+  margin: 50px auto;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+div.container div.services div.service div.content div div.body a.learn-more:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+div.container div.services div.service-one {
+  background-color: #797c7e33;
+  position: relative;
+  cursor: auto;
+}
+
+div.container div.services div.service-one div.content {
+  background-color: #5691c8;
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+}
+
+div.container div.services div.service-one div.content div div.header h4 {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 20px 0px;
+  font-size: 2rem;
+}
+
+div.container div.services div.service-one div.content div div.body {
+  color: #fff;
+}
+
+div.container div.services div.service-one div.content.fade-in {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+}
+
+div.container div.services div.service-two {
+  background-color: #49a0ad;
+  position: relative;
+}
+
+div.container div.services div.service-two div.content {
+  background-color: #f7f7f7;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+div.container div.services div.service-two div.content div div.header h4 {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0px;
+  font-size: 2rem;
+}
+
+div.container div.services div.service-two div.content div div.body {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+div.container div.services div.service-two div.content div div.body a.learn-more {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+div.container div.services div.service-two div.content-one {
+  position: relative;
+  left: -10rem;
+  opacity: 0;
+  overflow: hidden;
+}
+
+div.container div.services div.service-two div.content-two {
+  position: relative;
+  right: -10rem;
+  opacity: 0;
+  overflow: hidden;
+}
+
+div.container div.services div.service-two div.content-one.get-from-left {
+  position: relative;
+  left: 0;
+  opacity: 1;
+  -webkit-transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-out;
+}
+
+div.container div.services div.service-two div.content-two.get-from-right {
+  position: relative;
+  right: 0;
+  opacity: 1;
+  -webkit-transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-out;
+}
+
+div.container div.services div.service-three {
+  background-color: #3489c7;
+}
+
+div.container div.services div.service-three div.content {
+  background-color: #fff;
+}
+
+div.container div.services div.service-three div.content div div.header h4 {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0px;
+  font-size: 2rem;
+}
+
+div.container div.services div.service-three div.content div div.body {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+div.container div.services div.service-three div.content div div.body a.learn-more {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: rgba(0, 0, 0, 0.4);
+}
+
+div.container div.services div.service-three div.content-one {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+}
+
+div.container div.services div.service-three div.content-two {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+}
+
+div.container div.services div.service-three div.content-one.wh-1 {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+  opacity: 1;
+}
+
+div.container div.services div.service-three div.content-two.wh-2 {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+  opacity: 1;
+}
+
+div.container div.services div.service-four {
+  background-color: #3a6073;
+}
+
+div.container div.services div.service-four div.content {
+  background-color: #295;
+}
+
+div.container div.services div.service-four div.content div div.header h4 {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 20px 0px;
+  font-size: 2rem;
+}
+
+div.container div.services div.service-four div.content div div.body {
+  color: #fff;
+}
+
+div.container div.services div.service-four div.content-one {
+  position: relative;
+  top: -10em;
+  opacity: 0;
+}
+
+div.container div.services div.service-four div.content-two {
+  position: relative;
+  bottom: -10em;
+  opacity: 0;
+}
+
+div.container div.services div.service-four div.content-one.get-from-top {
+  position: relative;
+  top: 0;
+  opacity: 1;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+div.container div.services div.service-four div.content-two.get-from-bottom {
+  position: relative;
+  bottom: 0;
+  opacity: 1;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+div.container div.services div.service-five {
+  background-color: #3489c7;
+}
+
+div.container div.services div.service-five div.content {
+  background-color: #3f4e6b;
+}
+
+div.container div.services div.service-five div.content div div.header h4 {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 20px 0px;
+  font-size: 2rem;
+}
+
+div.container div.services div.service-five div.content div div.body {
+  color: #fff;
+}
+
+div.container div.services div.service-five div.content-one {
+  position: relative;
+  left: -10em;
+  bottom: -10em;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+
+div.container div.services div.service-five div.content-two {
+  position: relative;
+  right: -10em;
+  bottom: -10em;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+
+div.container div.services div.service-five div.content-one.get-from-left-bottom {
+  left: -0;
+  bottom: 0;
+  opacity: 1;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+div.container div.services div.service-five div.content-two.get-from-right-bottom {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+/*# sourceMappingURL=main.css.map */
