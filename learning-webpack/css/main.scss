@@ -376,10 +376,12 @@ div.container{
             div.content-one{
                 transform: scale(0);
                 opacity: 0;
+                transition: 2s ease-in-out;
             }
             div.content-two{
                 transform: scale(0);
                 opacity: 0;
+                transition: 2s ease-in-out;
             }
             div.content-one.wh-1{
                 transform: scale(1);

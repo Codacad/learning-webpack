@@ -331,12 +331,16 @@ div.container div.services div.service-three div.content-one {
   -webkit-transform: scale(0);
           transform: scale(0);
   opacity: 0;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
 }
 
 div.container div.services div.service-three div.content-two {
   -webkit-transform: scale(0);
           transform: scale(0);
   opacity: 0;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
 }
 
 div.container div.services div.service-three div.content-one.wh-1 {
